@@ -17,7 +17,7 @@ if (isset($_COOKIE["ItemName"])) {   // 存在
    setcookie("Quantity", "", time()-3600);
 }
 else {  // 不存在
-   $itemName = "白色iPhone";  // 指定變數值
+   $itemName = "肉色iPhone";  // 指定變數值
    $quantity = "10";
    // 有效期限為10天後
    $date = strtotime("+10 days", time());   
