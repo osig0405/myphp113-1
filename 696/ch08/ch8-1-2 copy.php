@@ -1,5 +1,5 @@
 <?php
-$ip = $SERVER["REMOTE_ADDR"];
+$ip = $_SERVER["REMOTE_ADDR"];
 
 print 'Ip Address' . ''. $ip .'';
 ?>
